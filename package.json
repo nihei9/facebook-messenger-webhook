@@ -1,0 +1,19 @@
+{
+  "name": "facebook-messenger-webhook",
+  "version": "1.0.0",
+  "description": "Facebook Messenger Webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihei9/facebook-messenger-webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nihei9/facebook-messenger-webhook/issues"
+  },
+  "homepage": "https://github.com/nihei9/facebook-messenger-webhook#readme"
+}
