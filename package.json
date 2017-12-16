@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nihei9/facebook-messenger-webhook/issues"
   },
-  "homepage": "https://github.com/nihei9/facebook-messenger-webhook#readme"
+  "homepage": "https://github.com/nihei9/facebook-messenger-webhook#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
