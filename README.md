@@ -12,7 +12,7 @@ $ sudo docker build -t facebook-messenger-webhook .
 コンテナの起動
 
 ```sh
-$ sudo docker run --name facebook-messenger-webhook -p 1337:1337 facebook-messenger-webhook
+$ sudo docker run --name facebook-messenger-webhook -p 1337:1337 -e "VERIFY_TOKEN={認証トークン}" facebook-messenger-webhook
 ```
 
 # 参考
