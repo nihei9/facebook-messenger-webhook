@@ -14,3 +14,7 @@ $ sudo docker build -t facebook-messenger-webhook .
 ```sh
 $ sudo docker run --name facebook-messenger-webhook -p 1337:1337 facebook-messenger-webhook
 ```
+
+# 参考
+
+https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup
