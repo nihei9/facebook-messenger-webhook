@@ -43,7 +43,7 @@ app.get('/webhook', (req, res) => {
 	let mode = req.query['hub.mode'];
 	let token = req.query['hub.verify_token'];
 	let challenge = req.query['hub.challenge'];
-		
+	
 	// Checks if a token and mode is in the query string of the request
 	if (mode && token) {
 		// Checks the mode and token sent is correct
@@ -54,7 +54,8 @@ app.get('/webhook', (req, res) => {
 			res.status(200).send(challenge);
 		} else {
 			// Responds with '403 Forbidden' if verify tokens do not match
-			res.sendStatus(403);	  
+			console.log('hub.verify_token does not match; expected: %s, actual: %s', VERIFY_TOKEN, token)
+			res.sendStatus(403);
 		}
 	}
 });
