@@ -59,3 +59,9 @@ app.get('/webhook', (req, res) => {
 		}
 	}
 });
+
+// Adds support for GET requests for health check
+app.get('/ping', (req, res) => {
+
+	res.sendStatus(200);
+});
